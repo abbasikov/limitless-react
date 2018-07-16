@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
-  "description": "Seller Portal",
+  "description": "LimitLess React",
   "repository": {
     "type": "git",
     "url": ""
@@ -13,7 +13,7 @@
     "redux",
     "webpack2"
   ],
-  "author": "Sajid Khan",
+  "author": "Umair Abbasi",
   "bugs": {
     "url": ""
   },
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "jest",
     "test-update": "jest -u",
-    "start": "./node_modules/webpack-dashboard/bin/webpack-dashboard.js -t 'SellerWebApp' -- ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "./node_modules/webpack-dashboard/bin/webpack-dashboard.js -t 'LimitLessReact' -- ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "rm -rf ./build && NODE_ENV=\"production\" ./node_modules/webpack/bin/webpack.js",
     "lint-break-on-errors": "./node_modules/eslint/bin/eslint.js ./source/js -f table --ext .js --ext .jsx",
     "lint": "./node_modules/eslint/bin/eslint.js ./source/js -f table --ext .js --ext .jsx",

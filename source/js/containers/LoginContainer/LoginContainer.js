@@ -108,7 +108,7 @@ class LoginContainer extends React.Component {
                 <div className="navbar navbar-inverse">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="index.html">
-                            <div>SellerWebApp</div>
+                            <div>LimitlessReact</div>
                         </a>
                     </div>
                 </div>
